@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_4FFEE9F0_E246_430e_9656_818F94BFA5C0">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Dokumentace" xmi.id="EAPK_4FFEE9F0_E246_430e_9656_818F94BFA5C0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_A8A65ACE_545C_41e9_9F00_6B288A9C3EAD"/>
+						<UML:TaggedValue tag="ea_package_id" value="228"/>
+						<UML:TaggedValue tag="created" value="2009-03-27 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2017-12-18 19:54:09"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="Dokumentace\Dokumentace.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2017-12-18 19:54:09"/>
+						<UML:TaggedValue tag="lastsavedate" value="2012-10-09 16:01:44"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;Recurse=0;VCCFG=zasilkovySklad2;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_4FFEE9F0_E246_430e_9656_818F94BFA5C0_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Zásilkový sklad" xmi.id="EAID_C2B854F1_B3BF_42ad_B26F_08D7D12D557A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_4FFEE9F0_E246_430e_9656_818F94BFA5C0"/>
+										<UML:TaggedValue tag="date_created" value="2017-09-20 12:02:53"/>
+										<UML:TaggedValue tag="date_modified" value="2017-11-04 18:25:59"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+										<UML:TaggedValue tag="package_name" value="Dokumentace"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Jirka"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="229"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Zásilkový sklad" xmi.id="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_4FFEE9F0_E246_430e_9656_818F94BFA5C0"/>
+								<UML:TaggedValue tag="created" value="2017-09-20 12:02:53"/>
+								<UML:TaggedValue tag="modified" value="2017-11-04 18:25:59"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2017-09-26 16:32:57"/>
+								<UML:TaggedValue tag="lastsavedate" value="2017-09-26 16:32:57"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Jirka"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_C2B854F1_B3BF_42ad_B26F_08D7D12D557A_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="Instala&#269;ní p&#345;íru&#269;ka" xmi.id="EAID_5C28434E_6F6D_42a4_B764_D337540384B9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="master document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+												<UML:TaggedValue tag="date_created" value="2015-09-02 12:37:23"/>
+												<UML:TaggedValue tag="date_modified" value="2017-09-20 12:03:00"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_5C28434E_6F6D_42a4_B764_D337540384B9"/>
+												<UML:TaggedValue tag="package_name" value="Zásilkový sklad"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Jirka"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="master document"/>
+												<UML:TaggedValue tag="tpos" value="4"/>
+												<UML:TaggedValue tag="ea_localid" value="233"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7A09C802-C9A6-4aec-ACF9-BA80FF2A89ED}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=master document;FQName=EAUML::master document;@ENDSTEREO;$DES;$CLT={5C28434E-6F6D-42a4-B764-D337540384B9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={778DC9CD-C3D0-4762-B962-5080DD46CE3D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_makeComposite@ENDNAME;@TYPE=string@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Extended::ModelDocument@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5C28434E-6F6D-42a4-B764-D337540384B9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Analytická dokumentace" xmi.id="EAID_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="master document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+												<UML:TaggedValue tag="date_created" value="2009-03-27 11:21:45"/>
+												<UML:TaggedValue tag="date_modified" value="2017-09-20 12:31:53"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA"/>
+												<UML:TaggedValue tag="package_name" value="Zásilkový sklad"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="master document"/>
+												<UML:TaggedValue tag="tpos" value="1"/>
+												<UML:TaggedValue tag="ea_localid" value="230"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6867B588-27F9-49e8-B8CB-8B48B5B1A9A1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=master document;FQName=EAUML::master document;@ENDSTEREO;$DES;$CLT={7CC7C9F0-6CFC-4f30-962F-C9FC16A659DA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={E59D11B2-24AB-499d-B4D8-7E1CE6CA9E69}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=_makeComposite@ENDNAME;@TYPE=string@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Extended::ModelDocument@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={7CC7C9F0-6CFC-4f30-962F-C9FC16A659DA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Návrh architektury a databázový model" xmi.id="EAID_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="master document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+												<UML:TaggedValue tag="date_created" value="2017-09-12 14:49:06"/>
+												<UML:TaggedValue tag="date_modified" value="2017-09-20 12:03:00"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C"/>
+												<UML:TaggedValue tag="package_name" value="Zásilkový sklad"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="master document"/>
+												<UML:TaggedValue tag="tpos" value="2"/>
+												<UML:TaggedValue tag="ea_localid" value="231"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6AC4CC3F-8892-448d-B09B-31E3634600C4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=master document;FQName=EAUML::master document;@ENDSTEREO;$DES;$CLT={BFCFA0B7-E7A2-42e7-B3E3-EF5C04950D2C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+										<UML:ClassifierRole name="Návrhová dokumentace (Detailní design)" xmi.id="EAID_D251BA47_8C10_48fa_B087_1243AF0FA0FB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="master document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Package"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+												<UML:TaggedValue tag="date_created" value="2009-04-23 19:38:46"/>
+												<UML:TaggedValue tag="date_modified" value="2017-09-20 12:03:00"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package2" value="EAID_D251BA47_8C10_48fa_B087_1243AF0FA0FB"/>
+												<UML:TaggedValue tag="package_name" value="Zásilkový sklad"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="master document"/>
+												<UML:TaggedValue tag="tpos" value="3"/>
+												<UML:TaggedValue tag="ea_localid" value="232"/>
+												<UML:TaggedValue tag="ea_eleType" value="package"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6FEE20C5-EA6A-46e8-B9D1-EEBF774BE288}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=master document;FQName=EAUML::master document;@ENDSTEREO;$DES;$CLT={D251BA47-8C10-48fa-B087-1243AF0FA0FB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={4CF2AB97-0130-45e5-936E-C9353DC98F16}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=_makeComposite@ENDNAME;@TYPE=string@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Extended::ModelDocument@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={D251BA47-8C10-48fa-B087-1243AF0FA0FB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+								<UML:Package name="Analytická dokumentace" xmi.id="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EAID_0480D43E_3232_4bd8_8888_5B5D0B358F77"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+										<UML:TaggedValue tag="created" value="2009-03-27 00:00:00"/>
+										<UML:TaggedValue tag="modified" value="2017-11-04 18:24:41"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2012-10-09 16:01:44"/>
+										<UML:TaggedValue tag="lastsavedate" value="2012-10-09 16:01:44"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="master document"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Class name="Pozadavky" xmi.id="EAID_98E4D119_FFE1_476b_96BD_792F4BEBE6C2" visibility="public" namespace="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA"/>
+												<UML:TaggedValue tag="date_created" value="2009-03-27 11:21:54"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Analytická dokumentace"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="3"/>
+												<UML:TaggedValue tag="ea_localid" value="1302"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={90BFA00D-9534-4aad-B233-40449074229C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={98E4D119-FFE1-476b-96BD-792F4BEBE6C2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={B7CC2DF5-0FCB-49a5-B569-9D937989CF9F}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={98E4D119-FFE1-476b-96BD-792F4BEBE6C2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Model požadavk&#367;" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_BBEA47F2_A4A2_4639_91BB_1A91E1FE378A"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="derived" value="0"/>
+														<UML:TaggedValue tag="length" value="0"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="precision" value="0"/>
+														<UML:TaggedValue tag="scale" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{105FD94E-94DF-4b3e-9D25-14D3AF9FA1A1}"/>
+														<UML:TaggedValue tag="ea_localid" value="995"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+										<UML:Class name="Model p&#345;ípad&#367; užití" xmi.id="EAID_A8A31544_33C8_4813_993D_8841A84AFBD4" visibility="public" namespace="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA"/>
+												<UML:TaggedValue tag="date_created" value="2009-04-23 19:40:49"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Analytická dokumentace"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="4"/>
+												<UML:TaggedValue tag="ea_localid" value="1303"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={05A47657-09F7-4ef1-83C1-A7073C259218}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={A8A31544-33C8-4813-993D-8841A84AFBD4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={A1950917-F068-4de6-A675-9381B1CC6459}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={A8A31544-33C8-4813-993D-8841A84AFBD4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Model p&#345;ípad&#367; užití" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_27F6B67D_5DDE_48c0_8CFA_86B9826861D9"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="derived" value="0"/>
+														<UML:TaggedValue tag="length" value="0"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="precision" value="0"/>
+														<UML:TaggedValue tag="scale" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{422B3B3B-605C-4ada-97F4-195938DC40C1}"/>
+														<UML:TaggedValue tag="ea_localid" value="996"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+										<UML:Class name="Business model" xmi.id="EAID_B430FABD_0F49_4872_8BF0_E464F0AAF660" visibility="public" namespace="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA"/>
+												<UML:TaggedValue tag="date_created" value="2009-04-23 19:39:35"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:40"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Analytická dokumentace"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="1"/>
+												<UML:TaggedValue tag="ea_localid" value="1304"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DBC3CF82-65AC-42ef-9BE5-89DC4D1708A2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={B430FABD-0F49-4872-8BF0-E464F0AAF660}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={B64A0D4F-0286-44f3-8360-2CE89DDCC903}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B430FABD-0F49-4872-8BF0-E464F0AAF660}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Procesy v zásilkovém skladu" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_E022A350_98C4_45ed_838B_906E6F5DA2C9"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="derived" value="0"/>
+														<UML:TaggedValue tag="length" value="0"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="precision" value="0"/>
+														<UML:TaggedValue tag="scale" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="2"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{BF26213F-BFF8-4abd-BBC5-E4936C7C4543}"/>
+														<UML:TaggedValue tag="ea_localid" value="997"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+										<UML:Class name="Doménový model" xmi.id="EAID_FAF5FB39_FCD5_415e_B7DC_602960796962" visibility="public" namespace="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA"/>
+												<UML:TaggedValue tag="date_created" value="2009-04-23 19:40:19"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:40"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Analytická dokumentace"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="2"/>
+												<UML:TaggedValue tag="ea_localid" value="1305"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5CB46DC7-8655-4966-8BF3-231A0C0CE843}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={FAF5FB39-FCD5-415e-B7DC-602960796962}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={C0290EDC-75EC-4b18-A2D7-38F27B19B26A}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={FAF5FB39-FCD5-415e-B7DC-602960796962}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Doménový model" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_41907E1E_3F72_42b6_AC61_3C65B91DF815"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="derived" value="0"/>
+														<UML:TaggedValue tag="length" value="0"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="precision" value="0"/>
+														<UML:TaggedValue tag="scale" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{EB2CFC14-75A2-4b92-86E6-99B4E4D8679A}"/>
+														<UML:TaggedValue tag="ea_localid" value="998"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Návrh architektury a databázový model" xmi.id="EAPK_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EAID_0480D43E_3232_4bd8_8888_5B5D0B358F77"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+										<UML:TaggedValue tag="created" value="2017-09-12 14:49:06"/>
+										<UML:TaggedValue tag="modified" value="2017-11-04 18:24:41"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2012-10-09 16:01:45"/>
+										<UML:TaggedValue tag="lastsavedate" value="2012-10-09 16:01:45"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="master document"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Class name="Rela&#269;ní datový  model" xmi.id="EAID_A72D5D43_D972_4630_9F7F_C3CD593B068B" visibility="public" namespace="EAPK_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C"/>
+												<UML:TaggedValue tag="date_created" value="2017-09-12 14:49:06"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Návrh architektury a databázový model"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="4"/>
+												<UML:TaggedValue tag="ea_localid" value="1306"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1A92ACFD-81D8-493e-A0CE-313B6C2C04EA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={A72D5D43-D972-4630-9F7F-C3CD593B068B}$CLT;$ENDXREF;$XREFPROP=$XID={84377BB4-7C2F-4bca-93CE-6C6C21906285}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={A72D5D43-D972-4630-9F7F-C3CD593B068B}$CLT;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Rela&#269;ní datový model" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_24EF82DC_E41B_494f_9102_BA025CBB5C1B"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="derived" value="0"/>
+														<UML:TaggedValue tag="length" value="0"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="precision" value="0"/>
+														<UML:TaggedValue tag="scale" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{5AB73CF9-B756-4336-A1EC-7F6216D596EA}"/>
+														<UML:TaggedValue tag="ea_localid" value="999"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+										<UML:Class name="Model t&#345;íd" xmi.id="EAID_ABC1C8A6_5F62_422b_809B_CE16928DC1FC" visibility="public" namespace="EAPK_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C"/>
+												<UML:TaggedValue tag="date_created" value="2017-09-12 14:49:06"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Návrh architektury a databázový model"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="2"/>
+												<UML:TaggedValue tag="ea_localid" value="1307"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C27267D1-897F-4ac8-B0FA-FB90C0B9DA7D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={ABC1C8A6-5F62-422b-809B-CE16928DC1FC}$CLT;$ENDXREF;$XREFPROP=$XID={97B03926-D21A-4767-8DED-16ECF22FEAD0}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={ABC1C8A6-5F62-422b-809B-CE16928DC1FC}$CLT;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Návrh architektury" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_01F92A43_6044_4886_BB61_1139291A23B2"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="derived" value="0"/>
+														<UML:TaggedValue tag="length" value="0"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="precision" value="0"/>
+														<UML:TaggedValue tag="scale" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{57DFEC69-E217-49eb-ABE0-F4A7CE38ADD2}"/>
+														<UML:TaggedValue tag="ea_localid" value="1000"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Návrhová dokumentace (Detailní design)" xmi.id="EAPK_D251BA47_8C10_48fa_B087_1243AF0FA0FB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EAID_0480D43E_3232_4bd8_8888_5B5D0B358F77"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+										<UML:TaggedValue tag="created" value="2009-04-23 00:00:00"/>
+										<UML:TaggedValue tag="modified" value="2017-11-04 18:24:41"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2012-10-09 16:01:45"/>
+										<UML:TaggedValue tag="lastsavedate" value="2012-10-09 16:01:45"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="master document"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Class name="Model t&#345;íd" xmi.id="EAID_871DBE75_49E1_4d11_898F_6E265EE8226E" visibility="public" namespace="EAPK_D251BA47_8C10_48fa_B087_1243AF0FA0FB" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_D251BA47_8C10_48fa_B087_1243AF0FA0FB"/>
+												<UML:TaggedValue tag="date_created" value="2009-04-23 19:43:32"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Návrhová dokumentace (Detailní design)"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="2"/>
+												<UML:TaggedValue tag="ea_localid" value="1308"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={449FD733-297E-420a-8E72-BC15CE8EACAA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={871DBE75-49E1-4d11-898F-6E265EE8226E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={FB60EA0A-D569-49c4-9110-E48D8A58389F}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={871DBE75-49E1-4d11-898F-6E265EE8226E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Návrhový model t&#345;íd" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_AA027538_F0B3_47c1_B5C1_012B24ABCAC4"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{7F1ADDE4-2FA8-41cc-BF80-DF73CA5FB159}"/>
+														<UML:TaggedValue tag="ea_localid" value="1005"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+										<UML:Class name="Model komunikace" xmi.id="EAID_A3584D97_0F1B_4c92_8F3B_422EF672D704" visibility="public" namespace="EAPK_D251BA47_8C10_48fa_B087_1243AF0FA0FB" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_D251BA47_8C10_48fa_B087_1243AF0FA0FB"/>
+												<UML:TaggedValue tag="date_created" value="2009-09-02 22:15:00"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Návrhová dokumentace (Detailní design)"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Jirka"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="3"/>
+												<UML:TaggedValue tag="ea_localid" value="1309"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={01E08E5A-6E40-45ff-8162-64E25B6A2F68}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=model document;FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={A3584D97-0F1B-4c92-8F3B-422EF672D704}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={41CADD3B-30FF-482c-938E-9EA8F77E1E1B}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={A3584D97-0F1B-4c92-8F3B-422EF672D704}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Realizace p&#345;ípad&#367; užití (model komunikace)" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_76A0BFF4_B6F1_4de5_82BD_027B217D011E"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{A6DB54EF-9DE8-480f-9A1F-6A5F7357414C}"/>
+														<UML:TaggedValue tag="ea_localid" value="1004"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+								<UML:Package name="Instala&#269;ní p&#345;íru&#269;ka" xmi.id="EAPK_5C28434E_6F6D_42a4_B764_D337540384B9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EAID_0480D43E_3232_4bd8_8888_5B5D0B358F77"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="parent" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+										<UML:TaggedValue tag="created" value="2015-09-02 12:37:23"/>
+										<UML:TaggedValue tag="modified" value="2017-11-04 18:24:41"/>
+										<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+										<UML:TaggedValue tag="lastloaddate" value="2015-09-02 15:42:04"/>
+										<UML:TaggedValue tag="lastsavedate" value="2015-09-02 15:42:04"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isprotected" value="FALSE"/>
+										<UML:TaggedValue tag="usedtd" value="FALSE"/>
+										<UML:TaggedValue tag="logxml" value="FALSE"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="batchsave" value="0"/>
+										<UML:TaggedValue tag="batchload" value="0"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="author" value="Jirka"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="master document"/>
+										<UML:TaggedValue tag="ea_stype" value="Public"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Namespace.ownedElement>
+										<UML:Class name="Nasazení" xmi.id="EAID_39ED3E39_A5BC_4c78_97D2_50BB47CFC9DF" visibility="public" namespace="EAPK_5C28434E_6F6D_42a4_B764_D337540384B9" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="model document"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Class"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="package" value="EAPK_5C28434E_6F6D_42a4_B764_D337540384B9"/>
+												<UML:TaggedValue tag="date_created" value="2009-04-23 19:42:03"/>
+												<UML:TaggedValue tag="date_modified" value="2017-11-04 18:24:41"/>
+												<UML:TaggedValue tag="gentype" value="Java"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Instala&#269;ní p&#345;íru&#269;ka"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="stereotype" value="model document"/>
+												<UML:TaggedValue tag="tpos" value="5"/>
+												<UML:TaggedValue tag="ea_localid" value="1310"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C877A8C1-6D1A-4e80-A14E-766AC8D49B28}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=model document;GUID={902625DB-7F43-4177-90ED-1843286B35C0};FQName=EAUML::model document;@ENDSTEREO;$DES;$CLT={39ED3E39-A5BC-4c78-97D2-50BB47CFC9DF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={47DCA18D-9120-4a3c-A220-F7522B69D1DC}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={39ED3E39-A5BC-4c78-97D2-50BB47CFC9DF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="Model nasazení" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+													<UML:Attribute.initialValue>
+														<UML:Expression/>
+													</UML:Attribute.initialValue>
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EAID_6DDAFED4_9CAE_4b02_B910_85377DC5F8CC"/>
+													</UML:StructuralFeature.type>
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="type" value="Package"/>
+														<UML:TaggedValue tag="derived" value="0"/>
+														<UML:TaggedValue tag="length" value="0"/>
+														<UML:TaggedValue tag="ordered" value="0"/>
+														<UML:TaggedValue tag="precision" value="0"/>
+														<UML:TaggedValue tag="scale" value="0"/>
+														<UML:TaggedValue tag="collection" value="false"/>
+														<UML:TaggedValue tag="position" value="1"/>
+														<UML:TaggedValue tag="lowerBound" value="1"/>
+														<UML:TaggedValue tag="upperBound" value="1"/>
+														<UML:TaggedValue tag="duplicates" value="0"/>
+														<UML:TaggedValue tag="ea_guid" value="{090A6755-1719-4bf7-8998-D8CDBFAB59F2}"/>
+														<UML:TaggedValue tag="ea_localid" value="1003"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+										</UML:Class>
+									</UML:Namespace.ownedElement>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_0480D43E_3232_4bd8_8888_5B5D0B358F77" name="master document" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Dokumentace" xmi.id="EAID_29F4EBAB_468D_4f50_810E_0EF29E8A7A2D" diagramType="CustomDiagram" owner="EAPK_4FFEE9F0_E246_430e_9656_818F94BFA5C0" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+				<UML:TaggedValue tag="created_date" value="2009-03-27 11:21:10"/>
+				<UML:TaggedValue tag="modified_date" value="2017-09-20 12:03:47"/>
+				<UML:TaggedValue tag="package" value="EAPK_4FFEE9F0_E246_430e_9656_818F94BFA5C0"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="163"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1130;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=DA384A1F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=40;Top=40;Right=239;Bottom=134;" subject="EAID_C2B854F1_B3BF_42ad_B26F_08D7D12D557A" seqno="1" style=" DUID=F40B7A15;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_FCAF_48fc_97A2_45EAA4555FFD" value="BI-SI1 MasterDocument" modelElement="EAID_5C28434E_6F6D_42a4_B764_D337540384B9"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_FCAF_48fc_ADE0_21E3D265E236" value="BI-SI1 MasterDocument#NOTES#Default: (model document: master template)&#xA;" modelElement="EAID_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_FCAF_48fc_A86A_020551D01F11" value="BI-SI1 MasterDocument#NOTES#Default: (model document: master template)&#xA;" modelElement="EAID_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_FCAF_48fc_89ED_2FC9927F6C97" value="BI-SI1 MasterDocument#NOTES#Default: (model document: master template)&#xA;" modelElement="EAID_D251BA47_8C10_48fa_B087_1243AF0FA0FB"/>
+		<UML:Diagram name="Zásilkový sklad" xmi.id="EAID_553A99ED_1472_4521_B9AE_3691375B6C09" diagramType="PackageDiagram" owner="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Jirka"/>
+				<UML:TaggedValue tag="created_date" value="2017-09-20 12:03:17"/>
+				<UML:TaggedValue tag="modified_date" value="2017-11-04 18:26:04"/>
+				<UML:TaggedValue tag="package" value="EAPK_C2B854F1_B3BF_42ad_B26F_08D7D12D557A"/>
+				<UML:TaggedValue tag="type" value="Package"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="164"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=780;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=F2D29F9D;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=30;Top=160;Right=221;Bottom=250;" subject="EAID_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C" seqno="1" style=" DUID=9C5A9BD7;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=12;Top=468;Right=152;Bottom=558;" subject="EAID_5C28434E_6F6D_42a4_B764_D337540384B9" seqno="2" style=" NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;HideIcon=0;DUID=6DEFB7A8;"/>
+				<UML:DiagramElement geometry="Left=10;Top=320;Right=204;Bottom=445;" subject="EAID_D251BA47_8C10_48fa_B087_1243AF0FA0FB" seqno="3" style="NSL=0;DUID=4ADE0B52;"/>
+				<UML:DiagramElement geometry="Left=9;Top=8;Right=173;Bottom=134;" subject="EAID_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" seqno="4" style="DUID=ED524F7C;NSL=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_AF2E_355B4B8CD920" value="BI-SI1 CommonAnalysisText" modelElement="EAID_98E4D119_FFE1_476b_96BD_792F4BEBE6C2"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_97B2_8619EF94B042" modelElement="EAID_98E4D119_FFE1_476b_96BD_792F4BEBE6C2"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_B349_2740E9AB0664" modelElement="EAID_98E4D119_FFE1_476b_96BD_792F4BEBE6C2"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_8770_01827000ECD7" value="BI-SI1 CommonAnalysisText" modelElement="EAID_A8A31544_33C8_4813_993D_8841A84AFBD4"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_BD55_89CE0410E538" modelElement="EAID_A8A31544_33C8_4813_993D_8841A84AFBD4"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_8829_6B20B9F2990A" modelElement="EAID_A8A31544_33C8_4813_993D_8841A84AFBD4"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_9C32_503BE286BC91" value="BI-SI1 CommonAnalysisText" modelElement="EAID_B430FABD_0F49_4872_8BF0_E464F0AAF660"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_B7CD_C13887A6EDAC" modelElement="EAID_B430FABD_0F49_4872_8BF0_E464F0AAF660"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_B210_20EB0F4A3614" modelElement="EAID_B430FABD_0F49_4872_8BF0_E464F0AAF660"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_9FFC_A945FCEA75C1" value="BI-SI1 CommonAnalysisText" modelElement="EAID_FAF5FB39_FCD5_415e_B7DC_602960796962"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_B442_F3AF20F0A291" modelElement="EAID_FAF5FB39_FCD5_415e_B7DC_602960796962"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_99A5_5A4D6AB01981" modelElement="EAID_FAF5FB39_FCD5_415e_B7DC_602960796962"/>
+		<UML:Diagram name="Analytická dokumentace" xmi.id="EAID_55195F5D_D4DF_482f_BE49_6B4A6CCC23B7" diagramType="CustomDiagram" owner="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+				<UML:TaggedValue tag="created_date" value="2009-03-27 11:21:46"/>
+				<UML:TaggedValue tag="modified_date" value="2017-11-04 18:31:38"/>
+				<UML:TaggedValue tag="package" value="EAPK_7CC7C9F0_6CFC_4f30_962F_C9FC16A659DA"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="165"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1130;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=1;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=620152C8;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=31;Top=448;Right=253;Bottom=584;" subject="EAID_A8A31544_33C8_4813_993D_8841A84AFBD4" seqno="1" style="DUID=A78F0833;Tag=1;"/>
+				<UML:DiagramElement geometry="Left=30;Top=170;Right=252;Bottom=297;" subject="EAID_FAF5FB39_FCD5_415e_B7DC_602960796962" seqno="2" style="DUID=BEBCFF04;Tag=1;"/>
+				<UML:DiagramElement geometry="Left=31;Top=35;Right=253;Bottom=162;" subject="EAID_B430FABD_0F49_4872_8BF0_E464F0AAF660" seqno="3" style="DUID=B1D26FF8;Tag=1;"/>
+				<UML:DiagramElement geometry="Left=36;Top=307;Right=258;Bottom=434;" subject="EAID_98E4D119_FFE1_476b_96BD_792F4BEBE6C2" seqno="4" style="DUID=240CB3FB;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_A81D_B27EDDE8C483" value="BI-SI1 DatabaseModel" modelElement="EAID_A72D5D43_D972_4630_9F7F_C3CD593B068B"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_A4B2_8D2B32F1D1AA" modelElement="EAID_A72D5D43_D972_4630_9F7F_C3CD593B068B"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_8CA1_5329143778E0" modelElement="EAID_A72D5D43_D972_4630_9F7F_C3CD593B068B"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_87C7_6C5185D9370B" value="BI-SI1 DesignClassModel" modelElement="EAID_ABC1C8A6_5F62_422b_809B_CE16928DC1FC"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_9152_337297923E07" modelElement="EAID_ABC1C8A6_5F62_422b_809B_CE16928DC1FC"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_8041_1738CE604DF5" modelElement="EAID_ABC1C8A6_5F62_422b_809B_CE16928DC1FC"/>
+		<UML:Diagram name="Návrhová dokumentace" xmi.id="EAID_15AC3E01_3502_48e6_9A3C_285C6DCEAF4D" diagramType="CustomDiagram" owner="EAPK_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+				<UML:TaggedValue tag="created_date" value="2017-09-12 14:49:06"/>
+				<UML:TaggedValue tag="modified_date" value="2017-11-22 19:31:43"/>
+				<UML:TaggedValue tag="package" value="EAPK_BFCFA0B7_E7A2_42e7_B3E3_EF5C04950D2C"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="166"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1130;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=1;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=1EB424F9;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=60;Top=31;Right=276;Bottom=156;" subject="EAID_ABC1C8A6_5F62_422b_809B_CE16928DC1FC" seqno="1" style="Tag=1;DUID=F0B783BD;"/>
+				<UML:DiagramElement geometry="Left=59;Top=190;Right=275;Bottom=317;" subject="EAID_A72D5D43_D972_4630_9F7F_C3CD593B068B" seqno="2" style="Tag=1;DUID=ED1C6F60;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_87E0_6FF77BCFEC4D" value="BI-SI1 DesignClassModel" modelElement="EAID_871DBE75_49E1_4d11_898F_6E265EE8226E"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_9CA6_7D42036E4DF1" modelElement="EAID_871DBE75_49E1_4d11_898F_6E265EE8226E"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_A4C8_AEE73950EF4E" modelElement="EAID_871DBE75_49E1_4d11_898F_6E265EE8226E"/>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_B3DB_652128618E10" value="BI-SI1 CommonDesignText" modelElement="EAID_A3584D97_0F1B_4c92_8F3B_422EF672D704"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_A6BC_519B62DAB9D2" modelElement="EAID_A3584D97_0F1B_4c92_8F3B_422EF672D704"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_8A0A_162090F22D2C" modelElement="EAID_A3584D97_0F1B_4c92_8F3B_422EF672D704"/>
+		<UML:Diagram name="Návrhová dokumentace" xmi.id="EAID_86F1E687_F114_46f5_88D4_FAB1754ADE1B" diagramType="CustomDiagram" owner="EAPK_D251BA47_8C10_48fa_B087_1243AF0FA0FB" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Ji&#345;í Mlejnek"/>
+				<UML:TaggedValue tag="created_date" value="2009-04-23 19:38:46"/>
+				<UML:TaggedValue tag="modified_date" value="2015-09-02 12:41:53"/>
+				<UML:TaggedValue tag="package" value="EAPK_D251BA47_8C10_48fa_B087_1243AF0FA0FB"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="167"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1130;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=1;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=F2D88956;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=61;Top=171;Right=277;Bottom=283;" subject="EAID_A3584D97_0F1B_4c92_8F3B_422EF672D704" seqno="1" style="DUID=66745EBB;Tag=1;"/>
+				<UML:DiagramElement geometry="Left=60;Top=31;Right=276;Bottom=156;" subject="EAID_871DBE75_49E1_4d11_898F_6E265EE8226E" seqno="2" style="DUID=77AD8774;Tag=1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:TaggedValue tag="RTFTemplate" xmi.id="EAID_149FD848_C554_2bc5_BB0B_1C8E46286F9A" value="BI-SI1 CommonDesignText" modelElement="EAID_39ED3E39_A5BC_4c78_97D2_50BB47CFC9DF"/>
+		<UML:TaggedValue tag="SearchName" xmi.id="EAID_80BF25D7_69A3_ba69_9C04_F8EB2BF2B91E" modelElement="EAID_39ED3E39_A5BC_4c78_97D2_50BB47CFC9DF"/>
+		<UML:TaggedValue tag="SearchValue" xmi.id="EAID_9934A2F3_603F_9860_9131_421FE90BD404" modelElement="EAID_39ED3E39_A5BC_4c78_97D2_50BB47CFC9DF"/>
+		<UML:Diagram name="Instala&#269;ní p&#345;íru&#269;ka" xmi.id="EAID_1F737CAE_B880_40cf_A726_EA7247D00098" diagramType="CustomDiagram" owner="EAPK_5C28434E_6F6D_42a4_B764_D337540384B9" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Jirka"/>
+				<UML:TaggedValue tag="created_date" value="2015-09-02 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2017-09-20 15:25:10"/>
+				<UML:TaggedValue tag="package" value="EAPK_5C28434E_6F6D_42a4_B764_D337540384B9"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="168"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=780;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=1;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=856F855F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=100;Top=60;Right=248;Bottom=140;" subject="EAID_39ED3E39_A5BC_4c78_97D2_50BB47CFC9DF" seqno="1" style="DUID=B364AFCF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAPK_BBEA47F2_A4A2_4639_91BB_1A91E1FE378A" name="Model požadavk&#367;" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_27F6B67D_5DDE_48c0_8CFA_86B9826861D9" name="Model p&#345;ípad&#367; užití" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_E022A350_98C4_45ed_838B_906E6F5DA2C9" name="Procesy v zásilkovém skladu" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_41907E1E_3F72_42b6_AC61_3C65B91DF815" name="Doménový model" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_24EF82DC_E41B_494f_9102_BA025CBB5C1B" name="Rela&#269;ní datový model" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_01F92A43_6044_4886_BB61_1139291A23B2" name="Návrh architektury" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_AA027538_F0B3_47c1_B5C1_012B24ABCAC4" name="Návrhový model t&#345;íd" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_76A0BFF4_B6F1_4de5_82BD_027B217D011E" name="Realizace p&#345;ípad&#367; užití (model komunikace)" UMLType="Package"/>
+		<EAStub xmi.id="EAPK_6DDAFED4_9CAE_4b02_B910_85377DC5F8CC" name="Model nasazení" UMLType="Package"/>
+	</XMI.extensions>
+</XMI>

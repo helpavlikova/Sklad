@@ -1,0 +1,7 @@
+zasilkovysklad
+zasilkovysklad.bl
+zasilkovysklad.dl.dao
+zasilkovysklad.dl.dao.hibernate
+zasilkovysklad.dl.entity
+zasilkovysklad.pl.controller
+zasilkovysklad.pl.view

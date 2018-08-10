@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://den1.mysql4.gear.host:3306/zasilkovysklad"/>
+                <property name="username" value="zasilkovysklad"/>
+                <property name="password" value="Up4tRC_C~Zf7"/>
+	</bean>
+    
+<bean id="hibernate4AnnotatedSessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+                <property name="dataSource" ref="dataSource" />
+		<property name="annotatedClasses">
+			<list>
+				<value>zasilkovysklad.dl.entity.Adresa</value>
+        <value>zasilkovysklad.dl.entity.Benefit</value>
+        <value>zasilkovysklad.dl.entity.Inventura</value>
+        
+        <value>zasilkovysklad.dl.entity.Krehkost</value>
+        <value>zasilkovysklad.dl.entity.Login</value>
+        <value>zasilkovysklad.dl.entity.Osoba</value>
+        <value>zasilkovysklad.dl.entity.Pozice</value>
+        <value>zasilkovysklad.dl.entity.PoziceZamestnance</value>
+        <value>zasilkovysklad.dl.entity.Regal</value>
+        <value>zasilkovysklad.dl.entity.Sekce</value>
+        <value>zasilkovysklad.dl.entity.StavRegalu</value>
+        <value>zasilkovysklad.dl.entity.StavZasilky</value>
+        <value>zasilkovysklad.dl.entity.Zakaznik</value>
+        <value>zasilkovysklad.dl.entity.Zamestnanec</value>
+        <value>zasilkovysklad.dl.entity.Zasilka</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.current_session_context_class">thread</prop>
+				<prop key="hibernate.show_sql">false</prop>
+                                <prop key="connection.pool_size">1</prop>
+			</props>
+		</property>
+	</bean>
+
+	
+	<bean id="LoginDAO" class="zasilkovysklad.dl.dao.hibernate.LoginDAO">
+		<property name="factory" ref="hibernate4AnnotatedSessionFactory" />
+	</bean>
+  <bean id="PoziceDAO" class="zasilkovysklad.dl.dao.hibernate.PoziceDAO">
+		<property name="factory" ref="hibernate4AnnotatedSessionFactory" />
+	</bean>
+  <bean id="RegalDAO" class="zasilkovysklad.dl.dao.hibernate.RegalDAO">
+		<property name="factory" ref="hibernate4AnnotatedSessionFactory" />
+	</bean>
+  <bean id="SekceDAO" class="zasilkovysklad.dl.dao.hibernate.SekceDAO">
+		<property name="factory" ref="hibernate4AnnotatedSessionFactory" />
+	</bean>
+  <bean id="ZasilkaDAO" class="zasilkovysklad.dl.dao.hibernate.ZasilkaDAO">
+		<property name="factory" ref="hibernate4AnnotatedSessionFactory" />
+	</bean>
+</beans>

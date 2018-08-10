@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/FIT/SI1/SVN/ZdrojovyKod/ZasilkovySklad/src/zasilkovysklad/dl/entity/Adresa.java</file>
+            <file>file:/C:/FIT/SI1/SVN/ZdrojovyKod/ZasilkovySklad/src/zasilkovysklad/pl/view/ZasilkovySkladLayout.java</file>
+            <file>file:/C:/FIT/SI1/SVN/ZdrojovyKod/ZasilkovySklad/src/zasilkovysklad/pl/controller/MainWindowController.java</file>
+            <file>file:/C:/FIT/SI1/SVN/ZdrojovyKod/ZasilkovySklad/src/zasilkovysklad/dl/dao/hibernate/LoginDAO.java</file>
+            <file>file:/C:/FIT/SI1/SVN/ZdrojovyKod/ZasilkovySklad/src/zasilkovysklad/dl/dao/ILoginDAO.java</file>
+            <file>file:/C:/FIT/SI1/SVN/ZdrojovyKod/ZasilkovySklad/src/zasilkovysklad/dl/dao/hibernate/HibernateUtil.java</file>
+            <file>file:/C:/FIT/SI1/SVN/ZdrojovyKod/ZasilkovySklad/src/zasilkovysklad/dl/dao/hibernate/PoziceDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
